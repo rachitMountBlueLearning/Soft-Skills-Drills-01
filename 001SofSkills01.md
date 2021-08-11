@@ -18,7 +18,6 @@
     - [4.5. ```MIN()```](#45-min)
   - [5. References](#5-references)
 
-<hr>
 <br>
 
 ## 1. SQL - Structured Query Language
@@ -56,15 +55,12 @@ SQL has many **frequently used in-built functions** available which are called *
 
 ```JOIN``` is a SQL clause which is used to combine data from two or more tables based on a common field between them. The different ```JOIN``` clause are as follows:
 
-1. ```INNER JOIN``` <br> ![INNER JOIN Clause](https://www.w3schools.com/sql/img_innerjoin.gif) | 2. ```LEFT JOIN``` <br> ![LEFT JOIN Clause](https://www.w3schools.com/sql/img_LEFTjoin.gif)
--------------------------------------|---------------------------------
+1. ```INNER JOIN``` <br> ![INNER JOIN Clause](https://www.w3schools.com/sql/img_innerjoin.gif)
+2. ```LEFT JOIN``` <br> ![LEFT JOIN Clause](https://www.w3schools.com/sql/img_LEFTjoin.gif)
+3. ```RIGHT JOIN``` <br> ![RIGHT JOIN Clause](https://www.w3schools.com/sql/img_rightjoin.gif)
+4. ```FULL JOIN``` <br> ![FULL JOIN Clause](https://www.w3schools.com/sql/img_fulljoin.gif)
 
 <br>
-
-3. ```RIGHT JOIN``` <br> ![RIGHT JOIN Clause](https://www.w3schools.com/sql/img_rightjoin.gif) | 4. ```FULL JOIN``` <br> ![FULL JOIN Clause](https://www.w3schools.com/sql/img_fulljoin.gif)
--------------------------------------|---------------------------------
-
-<br><br>
 
 To understand these clauses, consider following two tables:
 
@@ -241,8 +237,6 @@ Niraj|*NULL*
 *NULL*|5
 *NULL*|4
 
-<br>
-<hr>
 <br>
 
 ## 4. Aggregate Functions:
